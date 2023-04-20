@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UE4_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C6311279-5807-4898-91EC-63B379CC5E52}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE4_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D801D3F8-86D8-47C4-9FA9-9F9ED61381F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UE4_Project">
+      <UniqueIdentifier>{AC5143E3-6BB6-40A0-96F9-1239BF69B774}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_Project\UE4_Project.Build.cs">
+      <Filter>Source\UE4_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE4_Project\UE4_Project.cpp">
+      <Filter>Source\UE4_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Project\UE4_Project.h">
+      <Filter>Source\UE4_Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_Project\UE4_ProjectGameModeBase.cpp">
+      <Filter>Source\UE4_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_Project\UE4_ProjectGameModeBase.h">
+      <Filter>Source\UE4_Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
